@@ -11,8 +11,6 @@ class Solution:
 
         for i,ch in enumerate(min_len_str):
             for str in strs:
-                print(f"str[i]:{str[i]}")
-                print(f"ch:{ch}")
                 if str[i] !=ch:
                     return min_len_str[:i]
 
